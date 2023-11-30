@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* or other flex properties as needed */
+    align-items: center; /* align items vertically in the center */
+    /* add any other styling you need */
+    background-color: rgb(249, 230, 234);
+}
+
+/* Add styles for other sections as needed */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 10%;
+    margin-left: 20px;
+ 
+    /* your styles for information section */
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width:10%;
+    /* your styles for top items section */
+}
+.btn{
+    padding: 0.5rem;
+    width: 125px;
+   
+  }
+
+
+.others {
+    /* your styles for others section */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 10%;
+}
+
+.socialContainer {
+    /* your styles for social media section */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 25%;
+}
+.social{
+    display: flex;
+  gap: 10px;
+ 
+ 
+}
+.social>:nth-child(1){
+   color: rgb(35, 75, 219);
+   width: 30px;
+   height: 30px;
+}
+.social>:nth-child(2){
+    color: red;
+    width: 30px;
+    height: 30px;
+ }
+ .social>:nth-child(3){
+    color: rgba(47, 128, 205, 0.772);
+    width: 30px;
+    height: 30px;
+ }
+ .social>:nth-child(4){
+    color: red;
+    width: 30px;
+    height: 30px;
+ }
+ .info>:nth-child(1){
+    font-weight: 400px;
+ }

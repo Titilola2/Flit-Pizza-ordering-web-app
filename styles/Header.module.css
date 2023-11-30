@@ -1,0 +1,67 @@
+.header{
+    border: 2px solid rgb(248, 223, 223);
+    position: sticky;
+   background-color: white;
+   
+ 
+}
+.logoContainer {
+    display: flex;
+    
+  }
+
+.logo {
+    height: 40px;
+    margin-left: 20px;
+
+}
+
+.log {
+margin-left: 115px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    width: 400px;
+    font-size: medium;
+    font-weight: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rightSide{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 20px;
+} 
+.cart{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    z-index: 99;
+    justify-content: space-around;
+}
+.search{
+    justify-content: space-around;
+}
+.menu>li:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+.badge{
+    position:absolute;
+    display: flex;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -0.5rem;
+}
