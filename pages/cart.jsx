@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import cart from "../components/cart"
-import styles from "../styles/Cart.module.css";
+import styles from "../styles/cart.module.css";
 import Image from "next/image";
 import p1 from '../assets/p1.jpg'
 
