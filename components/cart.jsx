@@ -1,4 +1,4 @@
-import css from '../styles/sp1.module.css'
+import css from '../styles/cart.module.css'
 import p1 from '../assets/p1.jpg'
 import p2 from '../assets/p2.jpg'
 import p3 from '../assets/p3.png'
