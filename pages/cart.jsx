@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import cart from "../components/cart"
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
+import p1 from '../assets/p1.jpg'
 
 export default function cartPage() {
   return (
@@ -28,17 +29,13 @@ export default function cartPage() {
           </tr>
           <tr className={styles.tr}>
             <td>
-              <div className={styles.imgContainer}>
-                <Image
-                  src="/img/pizza.png"
-                  layout="fill"
-                  objectFit="cover"
-                  alt=""
-                />
-              </div>
+              
+              <div className={styles.ImageWrap}>
+                        <Image src={p1} alt="" objectFit='cover' layout='intrinsic'/>
+                    </div>
             </td>
             <td>
-              <span className={styles.name}>CORALZO</span>
+              <span className={styles.name}>Burger Pizza</span>
             </td>
             <td>
               <span className={styles.extras}>
@@ -55,35 +52,7 @@ export default function cartPage() {
               <span className={styles.total}>$39.80</span>
             </td>
           </tr>
-          <tr className={styles.tr}>
-            <td>
-              <div className={styles.imgContainer}>
-                <Image
-                  src="/img/pizza.png"
-                  layout="fill"
-                  objectFit="cover"
-                  alt=""
-                />
-              </div>
-            </td>
-            <td>
-              <span className={styles.name}>CORALZO</span>
-            </td>
-            <td>
-              <span className={styles.extras}>
-                Double ingredient, spicy sauce
-              </span>
-            </td>
-            <td>
-              <span className={styles.price}>$19.90</span>
-            </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
-            <td>
-              <span className={styles.total}>$39.80</span>
-            </td>
-          </tr>
+         
         </table>
       </div>
       <div className={styles.right}>
