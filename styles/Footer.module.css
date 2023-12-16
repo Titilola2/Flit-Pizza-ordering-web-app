@@ -16,6 +16,10 @@
  
     /* your styles for information section */
 }
+    .info>:nth-child(1){
+        font-weight: 600px;
+
+    }
 
 .top {
     display: flex;

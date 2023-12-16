@@ -9,6 +9,8 @@ import {
   faTwitter,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
+
 
 export default function Footer() {
     return (
@@ -68,7 +70,11 @@ export default function Footer() {
 
                     <span>Sign up and get exclusive offers and coupons</span>
                     <div className={styles.add}>
-            <button className={`btn ${css.btn}`}>SIGN UP</button>
+                    <Link href="/login">
+      <a>
+        <button className={`btn ${css.btn}`}>SIGN UP</button>
+      </a>
+    </Link>
         </div>
                
             </div>
